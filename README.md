@@ -24,12 +24,14 @@ Install Yarn Dependencies:\
 `jlpm`
 
 Install and Build the Extension:\
-`python -m pip install .`
+`python -m pip install -e .`
 
-Enable the Extension:\
-`jupyter server extension enable zenodo_jupyterlab.server`
+The server extension is enabled automatically by the package configuration.
+
 
 Now open a local instance of Jupyter Lab, and it should be present on the sidebar.
+
+Run `jupyter lab` in some directory
 
 # Docker
 Rather than manually cloning the repository, it is possible to run the extension in a Docker container. To do this, use the following command:\
