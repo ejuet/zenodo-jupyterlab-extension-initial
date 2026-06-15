@@ -11,6 +11,8 @@ node_modules/
 zenodo_jupyterlab/__pycache__
 zenodo_jupyterlab/labextension
 
+.venv
+
 # Integration tests
 ui-tests/test-results/
 ui-tests/playwright-report/
